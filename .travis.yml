@@ -6,8 +6,7 @@ services:
 language: c
 
 before_install:
-- travis_wait 30 make EDITOR=touch
+  - travis_wait 30 make EDITOR=touch
 
 script:
-- docker run tfoldi/tableau-server:release yum info tableau-server\*
-
+  - docker run brysgo/tableau-server:release yum info tableau-server\*

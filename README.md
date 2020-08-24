@@ -1,13 +1,13 @@
-# tableau-server-docker [![Build Status](https://travis-ci.org/tfoldi/tableau-server-docker.svg?branch=master)](https://travis-ci.org/tfoldi/tableau-server-docker)
+# tableau-server-docker [![Build Status](https://travis-ci.org/brysgo/tableau-server-docker.svg?branch=master)](https://travis-ci.org/brysgo/tableau-server-docker)
 
-Dockerfile for Tableau Server on Linux - Single Node. 
+Dockerfile for Tableau Server on Linux - Single Node.
 
 ## Build
-   
+
 Be sure that your `EDITOR` environment variable is set then simply call `make`:
 
     make
-    
+
 ## Run image
 
 To boot (run) Tableau Server container simply execute:
@@ -20,19 +20,20 @@ on the first start.
 To connect from a different terminal to the server itself use
 
     make exec
-    
+
 Pro tipp: If you commit the image state after the first execution (tableau configuration and registration) you don't
 have to wait minutes next time.
-    
+
 ## Author
 
-These ten lines of code done by me, [@tfoldi](https://twitter.com/tfoldi)
-
+These ten lines of code done by me, [@brysgo](https://twitter.com/brysgo)
 
 ## Install Demo
+
 [Console Video](https://asciinema.org/a/oJ7tTN0URdtF9UqpCRRGJzKvT/embed?)
-    
-## Blog from tfoldi
+
+## Blog from brysgo
+
 [Blog](https://databoss.starschema.net/tableau-server-linux-docker-container/)
 
 ## Tableau docs
