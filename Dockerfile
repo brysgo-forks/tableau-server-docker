@@ -7,7 +7,7 @@ FROM centos/systemd
 MAINTAINER "Bryan Goldstein" <brysgo@gmail.com>
 
 # this is the version what we're building
-ENV TABLEAU_VERSION="2019.1.1" \
+ENV TABLEAU_VERSION="2020.3" \
     LANG=en_US.UTF-8
 
 # make systemd dbus visible
